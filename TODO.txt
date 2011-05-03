@@ -1,0 +1,2 @@
+in file parties.html add PHP code to display the current party coordinateor from the SQL
+Make a PHP interface for Board members and roles 
