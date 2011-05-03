@@ -130,25 +130,17 @@ function GetTable( $query )
 		<td class="CellStyle">Pool Open Soon</td>
 	</tr>
 	<tr>
-		<td class="CellStyle">&nbsp;</td>
-		<td class="CellStyle">&nbsp;</td>
+		<td class="CellStyle" style="height: 19px">May</td>
+		<td class="CellStyle" style="height: 19px">Open Weekends</td>
 	</tr>
 	<tr>
-		<td class="CellStyle">&nbsp;</td>
-		<td class="CellStyle">&nbsp;</td>
+		<td class="CellStyle">June</td>
+		<td class="CellStyle">Open daily, June 9th</td>
 	</tr>
 	</table>	
 
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
 to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
-<h4> Spring Clinic is here!</h4>
-<p>
-Spring Swim Clinics start on Monday, March 1st. There are 5 weeks of clinics offered this season for beginners
- to advanced ability. You don't need to be on the Swim Team to participate. This is a great way for little ones 
- to learn how to swim or older kids to work on stroke techniques. Lessons are Mon/Wed or Tue/Thu times vary and 
- kids will be grouped by ability. There is always a low swimmer to instructor ratio. To 
-<a href="PDFs/FOREST%20PARK%20SPRING%20CLINICS%20PACKET.pdf">sign-up</a> or get more information, 
- please email <a href="mailto:jeff.mellinger@gmail.com?subject=Sping Clinic">Jeff</a>.</p>
 
 <h4>Special Events and Parties </h4>
 <table class="TableStyle">
