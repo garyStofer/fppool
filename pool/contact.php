@@ -58,7 +58,7 @@
 			
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			
-			<li><a href="lessons.htm">Lesson & Aerobics</a> </li>
+			<li><a href="lessons.htm">Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
 			<li><a href="PDFs/FPSA%20Calendar.pdf">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
