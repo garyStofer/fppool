@@ -134,9 +134,14 @@ function GetTable( $query )
 		<td class="CellStyle" style="height: 19px">Open Weekends</td>
 	</tr>
 	<tr>
-		<td class="CellStyle">June</td>
-		<td class="CellStyle">Open daily, June 9th</td>
+		<td class="CellStyle">June,July,Aug.</td>
+		<td class="CellStyle">Open daily, 1 to 9 </td>
 	</tr>
+		<tr>
+		<td class="CellStyle">September</td>
+		<td class="CellStyle">Fall Clinic, lap swimming</td>
+	</tr>
+
 	</table>	
 
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
@@ -149,7 +154,12 @@ $sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
 GetTable($sql);
 ?>
 </table>
+<h4>Fall Clinic</h4>
+<p>
+Fall clinics start 9/19 and run for 12 weeks. For more info see <a href="PDFs/FPSA_2011%20FALL%20CLINICS.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
+</p>
 
+<!--
 <h4><a href="lessons.htm">Swim lessons and Water-Aerobics</a></h4>
 <table>
 <tr>
@@ -165,6 +175,7 @@ Session 3</td><td>July 11 12 13 14 18 19 20 21 ( 8 classes)</td>
 <tr> <td></td><td>8 classes non members $50  members $ 45</td></tr>
 <tr> <td></td> <td>7 class session non members $43.75   members $39.00</td></tr>
 </table>
+-->
 <!--
 <table class="TableStyle">
 <?php
