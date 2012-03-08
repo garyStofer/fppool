@@ -61,7 +61,7 @@
 			
 			<li><a href="lessons.htm">Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a href="PDFs/FPSA%20Calendar.pdf">Calendar</a></li>
+			<li><a href="googleCal.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br />
 			<li><a href="directions.htm">Directions</a></li>
@@ -115,7 +115,7 @@ function GetTable( $query )
 <p>If you have any questions or need further information, Call Sandi Cheer (925) 
 798-1513 </p>
 
-<h4>Schedule of Operation 2011</h4>
+<h4>Schedule of Operation</h4>
 <table class="TableStyle">
 	<tr>
 		<td class="CellStyle">February</td>
@@ -127,11 +127,11 @@ function GetTable( $query )
 	</tr>
 	<tr>
 		<td class="CellStyle">April</td>
-		<td class="CellStyle">Pool Open Soon</td>
+		<td class="CellStyle">Pool Open April 7th</td>
 	</tr>
 	<tr>
 		<td class="CellStyle" style="height: 19px">May</td>
-		<td class="CellStyle" style="height: 19px">Open Weekends</td>
+		<td class="CellStyle" style="height: 19px">Open Weekends </td>
 	</tr>
 	<tr>
 		<td class="CellStyle">June,July,Aug.</td>
@@ -146,6 +146,9 @@ function GetTable( $query )
 
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
 to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
+<p style="margin-left: 40px">
+For detailed information please consult the <a href="googleCal.htm">Calendar</a>.
+</p>
 
 <h4>Special Events and Parties </h4>
 <table class="TableStyle">
@@ -154,9 +157,14 @@ $sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
 GetTable($sql);
 ?>
 </table>
-<h4>Fall Clinic</h4>
+<h4>Clinics</h4>
 <p>
-Fall clinics start 9/19 and run for 12 weeks. For more info see <a href="PDFs/FPSA_2011%20FALL%20CLINICS.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
+Spring clinic starts March 5th and runs for 5 weeks. For more info see <span class="style1">
+<a href="PDFs/FOREST%20PARK%20SPRING%20CLINICS%20PACKET.pdf">Spring Clinic Signup</a></span>. 
+ 
+</p>
+<p>
+Fall clinic start September 18th and runs for 12 weeks. For more info see <a href="PDFs/FPSA_2011%20FALL%20CLINICS.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
 </p>
 
 <!--
