@@ -1,5 +1,4 @@
-﻿@import url("layout.css");
-body {
+﻿body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	background-color: #9999FF;
@@ -107,9 +106,12 @@ h4 {
 }
 h3 {
 	color: #9900CC;
+	font-family: "Lucida Calligraphy";
 }
+
 h2 {
 	color: #9900CC;
+	font-family: "Lucida Calligraphy";
 }
 h1 {
 	color: #9900CC;

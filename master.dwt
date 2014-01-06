@@ -30,19 +30,19 @@
 			
 			<li><a href="pool/pictures.htm">Photos</a></li>
 			<li><a href="pool/history.htm">History</a></li>
+			<li><a href="pool/improvments.htm">Improvements</a></li>
 			<li><a href="pool/hours.php">Hours & Events</a> </li>
 			
 			
-			<li><a href="pool/PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
-			<li><a href="pool/membershp.htm">Membership Info</a></li>
-			
+			<li><a target="_blank" href="pool/PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
+			<li><a href="pool/membershp.htm">Membership</a></li>
 			<li><a href="pool/forms.htm">Forms & Docs</a></li>
-			
-			<li><a href="pool/lessons.htm">Lesson</a> </li>
+			<li><a href="pool/lessons.htm">Swim Lesson</a> </li>
 			<li><a href="pool/parties.htm">Party Reservations</a> </li>
-			<li><a href="pool/googleCal.htm">Calendar</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeeping">Gate Keep Signup</a></li>
+			<li><a href="pool/GoogCalendar.htm">Calendar</a></li>
 			<li><a href="pool/contact.php">Contact us</a></li>
-			<br />
+			<br/>
 			<li><a href="pool/directions.htm">Directions</a></li>
 			<li><a href="http://www.forestparkswimteam.com/">Our Swim team</a></li>
 		</ul>

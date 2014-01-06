@@ -50,20 +50,20 @@
 			
 			<li><a href="pictures.htm">Photos</a></li>
 			<li><a href="history.htm">History</a></li>
+			<li><a href="improvments.htm">Improvements</a></li>
 			<li><a href="hours.php">Hours & Events</a> </li>
 			
 			
 			<li>
-			<a href="PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
-			<li><a href="membershp.htm">Membership Info</a></li>
-			
+			<a target="_blank" href="PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
+			<li><a href="membershp.htm">Membership</a></li>
 			<li><a href="forms.htm">Forms & Docs</a></li>
-			
-			<li><a href="lessons.htm">Lesson</a> </li>
+			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a href="googleCal.htm">Calendar</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeeping">Gate Keep Signup</a></li>
+			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
-			<br />
+			<br/>
 			<li><a href="directions.htm">Directions</a></li>
 			<li><a href="http://www.forestparkswimteam.com/">Our Swim team</a></li>
 		</ul>
@@ -127,7 +127,7 @@ function GetTable( $query )
 	</tr>
 	<tr>
 		<td class="CellStyle">April</td>
-		<td class="CellStyle">Pool Open April 7th</td>
+		<td class="CellStyle">Pool Open April 6th</td>
 	</tr>
 	<tr>
 		<td class="CellStyle" style="height: 19px">May</td>
@@ -139,7 +139,7 @@ function GetTable( $query )
 	</tr>
 		<tr>
 		<td class="CellStyle">September</td>
-		<td class="CellStyle">Fall Clinic, lap swimming</td>
+		<td class="CellStyle">Fall Clinics, lap swimming</td>
 	</tr>
 
 	</table>	
@@ -147,7 +147,7 @@ function GetTable( $query )
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
 to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
 <p style="margin-left: 40px">
-For detailed information please consult the <a href="googleCal.htm">Calendar</a>.
+For detailed information please consult the <a href="GoogCalendar">Calendar</a>.
 </p>
 
 <h4>Special Events and Parties </h4>
@@ -159,14 +159,14 @@ GetTable($sql);
 </table>
 <h4>Clinics</h4>
 <p>
-Spring clinic starts March 5th and runs for 5 weeks. For more info see <span class="style1">
+Spring clinic starts March 4th an runs through the 29th. For more info see <span class="style1">
 <a href="PDFs/FOREST%20PARK%20SPRING%20CLINICS%20PACKET.pdf">Spring Clinic Signup</a></span>. 
- 
 </p>
+<!--
 <p>
-Fall clinic start September 18th and runs for 12 weeks. For more info see <a href="PDFs/FPSA_2011%20FALL%20CLINICS.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
+Fall clinic TBA . For more info see <a href="PDFs/FOREST%20PARK%20FALL%20CLINICS%20PACKET.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
 </p>
-
+-->
 <!--
 <h4><a href="lessons.htm">Swim lessons and Water-Aerobics</a></h4>
 <table>

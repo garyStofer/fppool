@@ -49,20 +49,20 @@
 			
 			<li><a href="pictures.htm">Photos</a></li>
 			<li><a href="history.htm">History</a></li>
+			<li><a href="improvments.htm">Improvements</a></li>
 			<li><a href="hours.php">Hours & Events</a> </li>
 			
 			
 			<li>
-			<a href="PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
-			<li><a href="membershp.htm">Membership Info</a></li>
-			
+			<a target="_blank" href="PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
+			<li><a href="membershp.htm">Membership</a></li>
 			<li><a href="forms.htm">Forms & Docs</a></li>
-			
-			<li><a href="lessons.htm">Lesson</a> </li>
+			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a href="googleCal.htm">Calendar</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeeping">Gate Keep Signup</a></li>
+			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
-			<br />
+			<br/>
 			<li><a href="directions.htm">Directions</a></li>
 			<li><a href="http://www.forestparkswimteam.com/">Our Swim team</a></li>
 		</ul>
@@ -117,8 +117,8 @@ while ($row = $result->fetch_assoc()  )
 	<tr>
 		<td class="CellStyle">General email contact</td>
 		<td class="CellStyle" style="height: 60px;" colspan="2">
-		<a href="mailto:info@forestparkpool.info?subject=Info on Forest Park Pool">
-		info@forestparkpool.info</a></td>
+		<a href="mailto:forestparkpool@gmail.com?subject=Info on Forest Park Pool">
+		forestparkpool@gmail.com</a></td>
 	</tr>
 	<tr>
 		<td style="height: 60px;"></td>
