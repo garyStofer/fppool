@@ -23,6 +23,12 @@
 	margin-top: 25px;
   	border-collapse:collapse;
 }
+.style1 {
+	text-align: left;
+}
+.style2 {
+	text-align: center;
+}
 </style>
 <!-- #EndEditable -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -60,7 +66,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeeping">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-20141">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -112,8 +118,8 @@ function GetTable( $query )
 ?>
 
 <h3>Hours of operation and special events</h3>
-<p>If you have any questions or need further information, Call Sandi Cheer (925) 
-798-1513 </p>
+<p>If you have any questions or need further information, please call the President or VP as listed on the <a href="http://forestparkpool.info/pool/contact.php">
+Contact us</a> page. </p>
 
 <h4>Schedule of Operation</h4>
 <table class="TableStyle">
@@ -127,15 +133,17 @@ function GetTable( $query )
 	</tr>
 	<tr>
 		<td class="CellStyle">April</td>
-		<td class="CellStyle">Pool Open April 6th</td>
+		<td class="CellStyle">Pool Open April 5th, Weekends only 1-6PM
+</td>
 	</tr>
 	<tr>
 		<td class="CellStyle" style="height: 19px">May</td>
-		<td class="CellStyle" style="height: 19px">Open Weekends </td>
+		<td class="CellStyle" style="height: 19px">Open Weekends, 1-7:30PM
+ </td>
 	</tr>
 	<tr>
-		<td class="CellStyle">June,July,Aug.</td>
-		<td class="CellStyle">Open daily, 1 to 9 </td>
+		<td class="CellStyle">June, July, Aug.</td>
+		<td class="CellStyle">Open daily, 1 to 9PM </td>
 	</tr>
 		<tr>
 		<td class="CellStyle">September</td>
@@ -147,7 +155,7 @@ function GetTable( $query )
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
 to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
 <p style="margin-left: 40px">
-For detailed information please consult the <a href="GoogCalendar">Calendar</a>.
+For day by day information please consult the <a href="GoogCalendar"> Google Calendar</a>.
 </p>
 
 <h4>Special Events and Parties </h4>
@@ -157,10 +165,27 @@ $sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
 GetTable($sql);
 ?>
 </table>
-<h4>Clinics</h4>
-<p>
-Spring clinic starts March 4th an runs through the 29th. For more info see <span class="style1">
-<a href="PDFs/FOREST%20PARK%20SPRING%20CLINICS%20PACKET.pdf">Spring Clinic Signup</a></span>. 
+<h4> Spring Clinic</h4>
+<p>We are pleased to be able to offer spring stroke clinics at Forest Park Swim Club  again! The first day of clinics is March 10th and they will run Mondays thru Thursdays until April 10th.
+</p>
+<div class="style1">
+	<div class="style2">
+		<strong>
+	<a  href="http://www.forestparkswimteam.com/FOREST%20PARK%202014%20SPRING%20CLINICS%20PACKET.pdf">
+	CLICK HERE FOR SIGN-UP PACKET</a></strong></div>
+<p>Spring Clinics are a great way to spend 5 extra weeks improving your abilities in the water. You can never spend enough time on technique. Our focus is strictly on technique during Spring Clinics. There will be 1 week spent on each stroke and a final week for turns/starts and review.
+
+</p>
+<p>We are offering options of 2, 3 or 4 days a week, Monday through Thursday.
+  There will be no clinics on Fridays. To remain eligible for the County Meet,
+   the maximum number of clinic hours allowed between Jan 1st and April 14th is fifteen.
+    The 4-day a week option provides exactly fifteen hours of clinics.
+
+</p>
+<p>This will be a first come/first serve clinic. In order to provide the swimmers with a small swimmer-to-coach ratio, we have to limit the number of swimmers that can sign up for each session. Due to the availability of our coaches, Wednesday sessions will have a lower maximum than others. Payment is due in full by the end of Week 1.  All participants must be in good standing with the pool/team and unpaid balances from 2013 must be brought current.
+
+</p>
+<p>Please email jeff.mellinger@gmail.com ASAP and let me know which Group and which Days for your swimmer(s) so I can save your slot. It's easier for us if you mail completed pages 1 and 4 and checks to Jeff Mellinger 5040 St. Garrett Court, Concord, 94521. Or you can bring them on first day of clinics. Make checks payable to FPSA.
 </p>
 <!--
 <p>
@@ -195,8 +220,9 @@ if ( ! GetTable($sql) )
 -->
 <?php $db->close();	?>
 	
+		</div>
+	
 		<!-- #EndEditable -->
-	</div>
 	<!-- End Content -->
 
 	<div id="footer">
