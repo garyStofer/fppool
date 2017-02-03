@@ -134,9 +134,14 @@ Contact us</a> page. </p>
 		<td class="CellStyle">March</td>
 		<td class="CellStyle">Spring Clinic Starts</td>
 	</tr>
+		<tr>
+		<td class="CellStyle">April</td>
+		<td class="CellStyle">1-9th, Spring Break, No lifeguards, 1-6PM</td>
+	</tr>
+
 	<tr>
 		<td class="CellStyle">April</td>
-		<td class="CellStyle">Pool Open April 5th, Weekends only 1-6PM
+		<td class="CellStyle">April 15th, Pool open Weekends 1-6PM
 </td>
 	</tr>
 	<tr>
@@ -170,14 +175,14 @@ GetTable($sql);
 ?>
 </table>
 <h4> Spring Clinic</h4>
-<p>We are pleased to be able to offer spring stroke clinics at Forest Park Swim Club  again! The first day of clinics is March 10th and they will run Mondays thru Thursdays until April 10th.
+<p>We are pleased to be able to offer stroke clinics at Forest Park Swim Club  again! The first day of clinics is February 27th and they will run Mondays thru Thursdays until March 30th.
 </p>
 <div class="style1">
 	<div class="style2">
 		<strong>
 	<a  href="https://www.teamunify.com/recccslfpst/__doc__/FOREST%20PARK%202017%20SPRING%20CLINICS%20Packet.pdf">
 	CLICK HERE FOR SIGN-UP PACKET</a></strong></div>
-<p>Spring Clinics are a great way to spend 5 extra weeks improving your abilities in the water. You can never spend enough time on technique. Our focus is strictly on technique during Spring Clinics. There will be 1 week spent on each stroke and a final week for turns/starts and review.
+<p>Clinics are a great way to spend 5 extra weeks improving your abilities in the water. You can never spend enough time on technique. Our focus is strictly on technique during Spring Clinics. There will be 1 week spent on each stroke and a final week for turns/starts and review.
 
 </p>
 <p>We are offering options of 2, 3 or 4 days a week, Monday through Thursday.

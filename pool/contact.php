@@ -151,7 +151,7 @@ while ($row = $result->fetch_assoc()  )
 					
 					if (strlen($row['phone']) == 7)
 					{
-						echo '<td class="CellStyle"> (925)</td>'.
+						echo '<td class="CellStyle">'."$row[AreaCode]</td>".
 					 		 '<td class="CellStyle"> '. substr($row['phone'],0,3) . '-' . substr($row['phone'],3,4) . '</td>';
 					}
 					echo '</tr>';
