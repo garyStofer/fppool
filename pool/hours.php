@@ -1,12 +1,13 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
 
 <!-- #BeginTemplate "../master.dwt" -->
 
 <head>
 <!-- #BeginEditable "doctitle" -->
 <title>Forest Park Pool Hours</title>
-<style type="text/css"> 
+<style type="text/css">
+ 
 .CellStyle {
 	border:1px solid blue;
 	
@@ -68,7 +69,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-20151">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-forest5">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -93,9 +94,9 @@
 	<div id="content">
 <!-- #BeginEditable "content" -->
 <?php
-define("HOST", 'fppool.db.5460539.hostedresource.com');
+define("HOST", 'fppool.db.13967474.hostedresource.com');
 define("USER",'fppoolreader');
-define("PWD",'Flyers2009');
+define("PWD",'Flyers%2009');
 define("DATABASE",'fppool');
 require_once('mydb.php'); // This also checks that magic_quotes are ON for GET/POST and exits if it's off
 
@@ -161,6 +162,7 @@ For day by day information please consult the <a href="GoogCalendar"> Google Cal
 </p>
 
 <h4>Special Events and Parties </h4>
+<p> See Google Calendar Calendar.</p>
 <table class="TableStyle">
 <?php
 $sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
@@ -173,7 +175,7 @@ GetTable($sql);
 <div class="style1">
 	<div class="style2">
 		<strong>
-	<a  href="http://www.forestparkswimteam.com/FOREST%20PARK%202014%20SPRING%20CLINICS%20PACKET.pdf">
+	<a  href="https://www.teamunify.com/recccslfpst/__doc__/FOREST%20PARK%202017%20SPRING%20CLINICS%20Packet.pdf">
 	CLICK HERE FOR SIGN-UP PACKET</a></strong></div>
 <p>Spring Clinics are a great way to spend 5 extra weeks improving your abilities in the water. You can never spend enough time on technique. Our focus is strictly on technique during Spring Clinics. There will be 1 week spent on each stroke and a final week for turns/starts and review.
 

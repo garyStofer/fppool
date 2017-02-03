@@ -7,6 +7,7 @@
 <!-- #BeginEditable "doctitle" -->
 <title>Contact Forest Park Pool</title>
 <style type="text/css">
+
 .CellStyle {
 	border: none; padding-left : 5px;
 	padding-right: 5px;
@@ -61,7 +62,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-20151">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-forest5">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -87,9 +88,9 @@
 <!-- #BeginEditable "content" -->
 <h3>Contacts:</h3>
 <?php
-define("HOST", 'fppool.db.5460539.hostedresource.com');
+define("HOST", 'fppool.db.13967474.hostedresource.com');
 define("USER",'fppoolreader');
-define("PWD",'Flyers2009');
+define("PWD",'Flyers%2009');
 define("DATABASE",'fppool');
 
 require_once('mydb.php'); // This also checks that magic_quotes are ON for GET/POST and exits if it's off
