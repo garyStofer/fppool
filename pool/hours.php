@@ -7,6 +7,7 @@
 <!-- #BeginEditable "doctitle" -->
 <title>Forest Park Pool Hours</title>
 <style type="text/css">
+
  
 .CellStyle {
 	border:1px solid blue;
@@ -69,7 +70,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-forest5">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gate">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -91,8 +92,8 @@
 	</div>
 	<!-- End Navigation -->
 	<!-- Begin Content -->
-	<div id="content">
 <!-- #BeginEditable "content" -->
+	<div id="content">
 <?php
 define("HOST", 'fppool.db.13967474.hostedresource.com');
 define("USER",'fppoolreader');
@@ -122,9 +123,9 @@ function GetTable( $query )
 
 <h3>Hours of operation and special events</h3>
 <p>If you have any questions or need further information, please call the President or VP as listed on the <a href="http://forestparkpool.info/pool/contact.php">
-Contact us</a> page. </p>
+Contact</a> page. </p>
 
-<h4>Schedule of Operation</h4>
+<h4>General Schedule of Operation</h4>
 <table class="TableStyle">
 	<tr>
 		<td class="CellStyle">February</td>
@@ -163,17 +164,17 @@ Contact us</a> page. </p>
 <p style="margin-left: 40px">* Except for swim team home meets on select Wednesdays: 1 
 to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
 <p style="margin-left: 40px">
-For day by day information please consult the <a href="GoogCalendar"> Google Calendar</a>.
+For day by day information and special events please consult the <a href="GoogCalendar"> Google Calendar</a>.
 </p>
-
-<h4>Special Events and Parties </h4>
-<p> See Google Calendar Calendar.</p>
 <table class="TableStyle">
 <?php
 $sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
 GetTable($sql);
 ?>
+ 
 </table>
+
+<!--
 <h4> Spring Clinic</h4>
 <p>We are pleased to be able to offer stroke clinics at Forest Park Swim Club  again! The first day of clinics is February 27th and they will run Mondays thru Thursdays until March 30th.
 </p>
@@ -196,6 +197,9 @@ GetTable($sql);
 </p>
 <p>Please email jeff.mellinger@gmail.com ASAP and let me know which Group and which Days for your swimmer(s) so I can save your slot. It's easier for us if you mail completed pages 1 and 4 and checks to Jeff Mellinger 5040 St. Garrett Court, Concord, 94521. Or you can bring them on first day of clinics. Make checks payable to FPSA.
 </p>
+-->
+<!--  ----------------------  -->
+
 <!--
 <p>
 Fall clinic TBA . For more info see <a href="PDFs/FOREST%20PARK%20FALL%20CLINICS%20PACKET.pdf"><span class="style1">Fall Clinic Signup</span></a>. 

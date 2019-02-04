@@ -8,6 +8,7 @@
 <title>Contact Forest Park Pool</title>
 <style type="text/css">
 
+
 .CellStyle {
 	border: none; padding-left : 5px;
 	padding-right: 5px;
@@ -62,7 +63,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70a0e4fada828ab9-forest5">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gate">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -113,13 +114,17 @@ while ($row = $result->fetch_assoc()  )
 ?>
 <table class="TableStyle">
 	<tr>
-		<td class="CellStyle" style="height: 60px;">Front Desk</td>
-		<td class="CellStyle" colspan="2">Gatekeeper on duty</td>
+		<td class="CellStyle" style="height: 40px;">Front Desk, Gatekeeper</td>
 		<td class="CellStyle" colspan="2">(925) 686-1333</td>
 	</tr>
+		<tr>
+		<td class="CellStyle" style="height: 40px;">General Membership Inquiries</td>
+		<td class="CellStyle" colspan="2">(925) 202-8584</td>
+	</tr>
+
 	<tr>
 		<td class="CellStyle">General email contact</td>
-		<td class="CellStyle" style="height: 60px;" colspan="2">
+		<td class="CellStyle" style="height: 40px;" colspan="2">
 		<a href="mailto:forestparkpool@gmail.com?subject=Info on Forest Park Pool">
 		forestparkpool@gmail.com</a></td>
 	</tr>
