@@ -8,6 +8,9 @@
 <title>Forest Park Pool Hours</title>
 <style type="text/css">
 
+
+
+
  
 .CellStyle {
 	border:1px solid blue;
@@ -34,7 +37,8 @@
 </style>
 <!-- #EndEditable -->
 <meta http-equiv="Cache-Control" content="no-store" />
-<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" "content=-1"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
 <meta name="keywords" content="Forest Park Pool, Forest Park Swim Team, Forest Park Flyers, Private Swim Club Concord CA, Membership Pool Concord CA, Swimm lessons, Private Pools, Lap Swimming, Summer Fun in Concord CA," />
@@ -70,7 +74,7 @@
 			<li><a href="forms.htm">Forms & Docs</a></li>
 			<li><a href="lessons.htm">Swim Lesson</a> </li>
 			<li><a href="parties.htm">Party Reservations</a> </li>
-			<li><a target="_blank" href="http://www.signupgenius.com/go/70A0E4FADA828AB9-gate">Gate Keep Signup</a></li>
+			<li><a target="_blank" href="https://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeepers">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
 			<br/>
@@ -82,8 +86,8 @@
 
 		
 		<ul >
+		<li>Forest Park Pool</li>
 		<li>1766 Mendocino Dr.</li>
-		<li>PO Box 21414</li>
 		<li>Concord, CA, 94521</li>
 		<li>(925) 686 1333</li>
 		</ul>
@@ -92,8 +96,9 @@
 	</div>
 	<!-- End Navigation -->
 	<!-- Begin Content -->
-<!-- #BeginEditable "content" -->
 	<div id="content">
+<!-- #BeginEditable "content" -->
+	<div id="content0">
 <?php
 define("HOST", 'fppool.db.13967474.hostedresource.com');
 define("USER",'fppoolreader');
@@ -122,42 +127,56 @@ function GetTable( $query )
 ?>
 
 <h3>Hours of operation and special events</h3>
-<p>If you have any questions or need further information, please call the President or VP as listed on the <a href="http://forestparkpool.info/pool/contact.php">
+<h5>Please note the special instructions on the home  page for this years COVID plagued season.</h5>
+
+<p>If you have any questions or need further information, please call the 
+President or Membership person as listed on the <a href="http://forestparkpool.info/pool/contact.php">
 Contact</a> page. </p>
 
 <h4>General Schedule of Operation</h4>
 <table class="TableStyle">
 	<tr>
-		<td class="CellStyle">February</td>
-		<td class="CellStyle">Spring Swim Clinic Sign Ups</td>
-	</tr>
-	<tr>
-		<td class="CellStyle">March</td>
-		<td class="CellStyle">Spring Clinic Starts</td>
-	</tr>
+		<td class="CellStyle" style="width: 310px; height: 22px">Swim Camps 
+		starts&nbsp; , email
+		<a href="mailto:jeff.mellinger@gmail.com?subject=Swim Camp question">
+		Jeff Mellinger</a></td>
+		<td class="CellStyle" style="height: 22px">March 1st</td>
+		</tr>
 		<tr>
-		<td class="CellStyle">April</td>
-		<td class="CellStyle">1-9th, Spring Break, No lifeguards, 1-6PM</td>
+			<td class="CellStyle" style="width: 310px; height: 21px">Lap Swim 
+			starts,
+			<a href="https://www.signupgenius.com/go/70a0e4fada828ab9-march">
+			Sign up for a spot here</a></td>
+			<td class="CellStyle" style="height: 21px">March 2nd</td>
+		</tr>
+			<tr>
+			<td class="CellStyle" style="width: 310px; height: 21px">Aqua Fit 
+			starts , Email
+			<a href="mailto:adlegault@sbcglobal?subject=Aqua Fit signup">for sign up</a> </td>
+			<td class="CellStyle" style="height: 21px">March 1st</td>
+		</tr>
+
+		<tr>
+		<td class="CellStyle" style="width: 310px">Tri-Fit Aqua starts, 
+		SMS Piankhi Gibson at <br />
+		510-593-5319</td>
+		<td class="CellStyle">March 6th</td>
 	</tr>
 
 	<tr>
-		<td class="CellStyle">April</td>
-		<td class="CellStyle">April 15th, Pool open Weekends 1-6PM
-</td>
+		<td class="CellStyle" style="width: 310px">Open for membership</td>
+		<td class="CellStyle">April 3rd, Pool open Weekends 1-6PM</td>
 	</tr>
 	<tr>
-		<td class="CellStyle" style="height: 19px">May</td>
-		<td class="CellStyle" style="height: 19px">Open Weekends, 1-7:30PM
- </td>
+		<td class="CellStyle" style="height: 19px; width: 310px;">Open 
+		daily *</td>
+		<td class="CellStyle" style="height: 19px">June, July, August<br />
+		1 PM to 9 PM</td>
 	</tr>
 	<tr>
-		<td class="CellStyle">June, July, Aug.</td>
-		<td class="CellStyle">Open daily, 1 to 9PM </td>
-	</tr>
-		<tr>
-		<td class="CellStyle">September</td>
-		<td class="CellStyle">Fall Clinics, lap swimming</td>
-	</tr>
+		<td class="CellStyle" style="width: 310px; height: 21px;">Fall Clinics, 
+		Lap Swim </td>
+		<td class="CellStyle" style="height: 21px">September</td>
 
 	</table>	
 
@@ -166,15 +185,7 @@ to 5 PM. Check the swim team&#39;s website for dates and location of meets.</p>
 <p style="margin-left: 40px">
 For day by day information and special events please consult the <a href="GoogCalendar"> Google Calendar</a>.
 </p>
-<table class="TableStyle">
-<?php
-$sql = 'SELECT * FROM events WHERE event=1 AND displ=1 ORDER BY date ';
-GetTable($sql);
-?>
- 
-</table>
-
-<!--
+		`<!--
 <h4> Spring Clinic</h4>
 <p>We are pleased to be able to offer stroke clinics at Forest Park Swim Club  again! The first day of clinics is February 27th and they will run Mondays thru Thursdays until March 30th.
 </p>
@@ -197,15 +208,11 @@ GetTable($sql);
 </p>
 <p>Please email jeff.mellinger@gmail.com ASAP and let me know which Group and which Days for your swimmer(s) so I can save your slot. It's easier for us if you mail completed pages 1 and 4 and checks to Jeff Mellinger 5040 St. Garrett Court, Concord, 94521. Or you can bring them on first day of clinics. Make checks payable to FPSA.
 </p>
--->
-<!--  ----------------------  -->
-
-<!--
+--><!--  ----------------------  --><!--
 <p>
 Fall clinic TBA . For more info see <a href="PDFs/FOREST%20PARK%20FALL%20CLINICS%20PACKET.pdf"><span class="style1">Fall Clinic Signup</span></a>. 
 </p>
--->
-<!--
+--><!--
 <h4><a href="lessons.htm">Swim lessons and Water-Aerobics</a></h4>
 <table>
 <tr>
@@ -221,8 +228,7 @@ Session 3</td><td>July 11 12 13 14 18 19 20 21 ( 8 classes)</td>
 <tr> <td></td><td>8 classes non members $50  members $ 45</td></tr>
 <tr> <td></td> <td>7 class session non members $43.75   members $39.00</td></tr>
 </table>
--->
-<!--
+--><!--
 <table class="TableStyle">
 <?php
 $sql = 'SELECT * FROM events WHERE lessons=1 AND displ=1 ORDER BY date ';
@@ -230,10 +236,7 @@ if ( ! GetTable($sql) )
 	echo "TBD";
 ?>
 </table>
--->
-<?php $db->close();	?>
-	
-		</div>
+--><?php $db->close();	?></div>
 	
 		<!-- #EndEditable -->
 	</div>
