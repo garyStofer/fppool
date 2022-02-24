@@ -12,6 +12,8 @@
 
 
 
+
+
 .CellStyle {
 	border: none; padding-left : 5px;
 	padding-right: 5px;
@@ -65,8 +67,8 @@
 			<a target="_blank" href="PDFs/FPSA%20President%20Letter%20Membership%20Packet.pdf">Presidents letter</a></li>
 			<li><a href="membershp.htm">Membership</a></li>
 			<li><a href="forms.htm">Forms & Docs</a></li>
-			<li><a href="lessons.htm">Swim Lesson</a> </li>
-			<li><a href="parties.htm">Party Reservations</a> </li>
+			<li><a href="lessons.htm">Lessons/Aerobics</a> </li>
+		<!--	<li><a href="pool/parties.htm">Party Reservations</a> </li> -->
 			<li><a target="_blank" href="https://www.signupgenius.com/go/70A0E4FADA828AB9-gatekeepers">Gate Keep Signup</a></li>
 			<li><a href="GoogCalendar.htm">Calendar</a></li>
 			<li><a href="contact.php">Contact us</a></li>
@@ -92,30 +94,6 @@
 	<div id="content">
 <!-- #BeginEditable "content" -->
 <h3>Contacts:</h3>
-<?php
-define("HOST", 'fppool.db.13967474.hostedresource.com');
-define("USER",'fppoolreader');
-define("PWD",'Flyers%2009');
-define("DATABASE",'fppool');
-
-require_once('mydb.php'); // This also checks that magic_quotes are ON for GET/POST and exits if it's off
-
-
-$db= new Database(HOST,USER,PWD,DATABASE);
-$q = 'SELECT role_id,role_name FROM roles ORDER by sort';
-$result = $db->query($q);
-while ($row = $result->fetch_assoc()  )
-{
-	$all_roles[] = $row;
-}
-
-$q = 'SELECT * FROM role_to_member_lu';
-$result = $db->query($q);
-while ($row = $result->fetch_assoc()  )
-{
-	$lookup[] = $row;
-}
-?>
 <table class="TableStyle">
 	<tr>
 		<td class="CellStyle" style="height: 40px;">Front Desk, Gatekeeper</td>
@@ -135,8 +113,39 @@ while ($row = $result->fetch_assoc()  )
 	<tr>
 		<td style="height: 60px;"></td>
 	</tr>
-	
+</table>
+
+<table class="TableStyle">
 <?php
+// until the DB access problem is fixed. After Godaddies update of their hosting platform our database with the user roles can't be found anymore 
+die( "");  // remove this to have the code below execute 
+
+define("HOST", 'fppool.db.13967474.hostedresource.com');
+define("USER",'fppoolreader');
+define("PWD",'Flyers%2009');
+define("DATABASE",'fppool');
+
+require_once('mydb.php'); // This also checks that magic_quotes are ON for GET/POST and exits if it's off
+
+
+$db= new Database(HOST,USER,PWD,DATABASE);
+
+
+$q = 'SELECT role_id,role_name FROM roles ORDER by sort';
+$result = $db->query($q);
+while ($row = $result->fetch_assoc()  )
+{
+	$all_roles[] = $row;
+}
+
+$q = 'SELECT * FROM role_to_member_lu';
+$result = $db->query($q);
+while ($row = $result->fetch_assoc()  )
+{
+	$lookup[] = $row;
+}
+
+
 	foreach($all_roles as $i => $role)
 	{
 		foreach($lookup as $ii => $lu)
@@ -169,6 +178,7 @@ while ($row = $result->fetch_assoc()  )
 		}
 	}
 $db->close();
+
 ?>
 </table>
 		

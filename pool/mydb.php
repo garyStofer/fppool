@@ -1,6 +1,6 @@
 <?php
 //Check that Magic quotes are on- else die - fix in php.ini
-if (!get_magic_quotes_gpc() )	die( "magic_quotes_gpc is 'OFF' - Fix in php.ini -- Exiting ");
+//if (!get_magic_quotes_gpc() )	die( "magic_quotes_gpc is 'OFF' - Fix in php.ini -- Exiting ");
 	
 
 
